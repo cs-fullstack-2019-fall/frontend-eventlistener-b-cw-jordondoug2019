@@ -4,6 +4,7 @@ html{
 }
 #grid{
     display:grid;
+    /*!! : choose either area or columns*/
     grid-template-columns: repeat(5,1fr);
     /*grid-template-rows: 200px;*/
     grid-template-areas:
@@ -36,6 +37,7 @@ header{
     width:95%;
 
 }
+/*!! : aside is too wide*/
 aside{
     grid-area: aside1;
     background-color: purple;

@@ -10,6 +10,7 @@ buttonel.addEventListener("click", function () {
     headercolor.classList.toggle("header")
 });
 button2el.addEventListener("click", function () {
+	// !! : only replace title with "2"
     sidebar.innerText="2";
     sidebar.classList.toggle("sidebar")
 });
